@@ -30,9 +30,9 @@ If you do not wish to plot the resulting helix, you may omit the code to import,
       - a Helix plot appears
       - The helix data is stored in the path specified by the __helixFileFullName__ variable
   
-  ### Example
+### Example
   
-  #### Helix construction parameters
+#### Helix construction parameters
     
     - R = 20
     - startDepth = 100
@@ -41,7 +41,7 @@ If you do not wish to plot the resulting helix, you may omit the code to import,
     - pitch = 0.1
     - isOuterProfile = False
   
-  #### Helix data storage parameters
+#### Helix data storage parameters
     
     - numOfPointsPerRev = 50
     - helixFileFullName = 'helix.dat'
