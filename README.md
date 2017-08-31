@@ -15,14 +15,14 @@ PyHelix has the following dependencies:
 If you do not wish to plot the resulting helix, you may omit the code to import, and call _matplotlib.pyplot_, and _mpl_toolkits.mplot3d_ from __helixLib.py__*
 
 ## Usage
-* Download __helixLib.py__, and __helixGeometry.py__, and place them in the same directory. __helixGeometry.py__ is the main file, and it references the functions defined in __helixLib.py__.
-* Open __helixGeometry.py__, and modify the helix construction parameters:
-- Radius
-- startDepth
-- startAngle
-- numberOfRevolutions
-- pitch
-- isOuterProfile: If __isOuterProfile = False__, the helix unit normal vectors will point towards the helix axis, and vise-versa.
-* Set helix data storage parameters:
-- numOfPointsPerRev: number of points extracted per helix revolution
-- helixFileFullName: CSV [comma-separated] file path, where the helix points and unit normal vectors are to be stored
+- Download __helixLib.py__, and __helixGeometry.py__, and place them in the same directory. __helixGeometry.py__ is the main file, and it references the functions defined in __helixLib.py__.
+  - Open __helixGeometry.py__, and modify the helix construction parameters:
+  - Radius
+  - startDepth
+  - startAngle
+  - numberOfRevolutions
+  - pitch
+  - isOuterProfile: If __isOuterProfile = False__, the helix unit normal vectors will point towards the helix axis, and vise-versa.
+- Set helix data storage parameters:
+  - numOfPointsPerRev: number of points extracted per helix revolution
+  - helixFileFullName: CSV [comma-separated] file path, where the helix points and unit normal vectors are to be stored
