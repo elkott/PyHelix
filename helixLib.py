@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 import csv
-import logging as log
+import logging
 
 def getUnitVector(vi, vj, vk):
     v = np.array([vi, vj, vk])
